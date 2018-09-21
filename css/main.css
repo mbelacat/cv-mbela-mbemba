@@ -97,19 +97,93 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+     background-color: #d6d1d1;
+     justify-content: center;
+
+        }
+
+        /* ---------------container-------------*/
+
+.container{
+  width:90%;
+  background-color: white;
+  margin: auto;
+}
+
+        /* ---------------Header----------------*/
+header{
+text-align: center;
+border-bottom: 4mm ridge rgb(183, 213, 212, .6);
+}
 
 
 
+      /*----------costum title------------*/
+
+h1{
+  color: #d6d1d1;
+}
+h3, h4{
+  color: #d6d1d1;
+}
+h4{
+  border-bottom: 1px solid #d6d1d1;
+}
+
+h5{
+  font-style: bold;
+}
+
+
+    /*-------- make two column-------*/
+
+.column{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.left{
+  width: 48%;
+}
+.right{
+  width: 48%
+}
+
+/* column right*/
+
+.right{
+  margin-top:25px,
+}
 
 
 
+/* photo and social links*/
+
+.photo-social-link{
+  display: flex;
+  justify-content:space-between;
+}
+.photo{
+  width: 40%;
+}
+.nav-social-link{
+  width: 60%;
+  margin: auto;
+}
 
 
+/* social links*/
 
+ul#social-link li{
+  display: inline;
+}
 
-
-
-
+ul#social-link {
+  width: 45%;
+  margin:auto;
+}
 
 
 

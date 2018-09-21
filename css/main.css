@@ -97,20 +97,122 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+     background-color: #d6d1d1;
+     justify-content: center;
+
+        }
+
+        /* ---------------container-------------*/
+
+.container{
+  width:90%;
+  background-color: white;
+  margin: auto;
+}
+
+        /* ---------------Header----------------*/
+header{
+text-align: center;
+padding: 10px;
+border-bottom: 4mm ridge rgb(183, 213, 212, .6);
+}
 
 
 
+      /*----------custom title------------*/
+
+h1{
+  color: #ADA0A0;
+  padding-top: 10px;
+}
+h3, h4, span{
+  color: #ADA0A0;
+}
+h3{
+  border-bottom: 1px solid #ADA0A0;
+}
+
+h4, h5{
+  font-style: bold;
+  margin-bottom: 12px;
+}
+
+h5{
+  margin-top: 10px;
+}
+   /*---------- custom p -----------*/
+
+p{
+  margin-top: -8px;
+}
+.formation span{
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+}
+    /*-------- make two column-------*/
+
+.column{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.left{
+  width: 48%;
+}
+.right{
+  width: 48%
+}
+
+/* column right*/
+
+.right{
+  padding-top: 45px;
+}
 
 
 
+/* photo and social links*/
+
+.photo-social-link{
+  display: flex;
+  justify-content:space-between;
+}
+.photo{
+  width: 40%;
+}
+.nav-contact-social-link{
+  width: 60%;
+  margin: auto;
+}
 
 
+/* social links*/
 
+ul#social-link li{
+  display: inline;
+}
 
+ul#social-link {
+  width: 45%;
+  margin:auto;
+}
 
+ul {
+  list-style: none;
 
-
-
+}
+.list-skills{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.list-skills ul{
+  width: 50%;
+  padding-left: 10px;
+}
 
 
 /* ==========================================================================

@@ -114,28 +114,43 @@ body{
         /* ---------------Header----------------*/
 header{
 text-align: center;
+padding: 10px;
 border-bottom: 4mm ridge rgb(183, 213, 212, .6);
 }
 
 
 
-      /*----------costum title------------*/
+      /*----------custom title------------*/
 
 h1{
-  color: #d6d1d1;
+  color: #ADA0A0;
+  padding-top: 10px;
 }
-h3, h4{
-  color: #d6d1d1;
+h3, h4, span{
+  color: #ADA0A0;
 }
-h4{
-  border-bottom: 1px solid #d6d1d1;
+h3{
+  border-bottom: 1px solid #ADA0A0;
+}
+
+h4, h5{
+  font-style: bold;
+  margin-bottom: 12px;
 }
 
 h5{
-  font-style: bold;
+  margin-top: 10px;
 }
+   /*---------- custom p -----------*/
 
-
+p{
+  margin-top: -8px;
+}
+.formation span{
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+}
     /*-------- make two column-------*/
 
 .column{
@@ -154,7 +169,7 @@ h5{
 /* column right*/
 
 .right{
-  margin-top:25px,
+  padding-top: 45px;
 }
 
 
@@ -168,7 +183,7 @@ h5{
 .photo{
   width: 40%;
 }
-.nav-social-link{
+.nav-contact-social-link{
   width: 60%;
   margin: auto;
 }
@@ -185,6 +200,19 @@ ul#social-link {
   margin:auto;
 }
 
+ul {
+  list-style: none;
+
+}
+.list-skills{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.list-skills ul{
+  width: 50%;
+  padding-left: 10px;
+}
 
 
 /* ==========================================================================

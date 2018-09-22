@@ -153,7 +153,7 @@ p{
 }
     /*-------- make two column-------*/
 
-.column{
+main{
   display: flex;
   justify-content: space-around;
   padding-top: 15px;
